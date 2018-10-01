@@ -258,4 +258,10 @@ public class SudokuTest {
 		assertTrue(Arrays.equals(Region5, s1.getRegion(5)));
 		
 	}
+	@Test
+	//should be able to test the shuffle array with a certain array
+	public void shuffleArray(int[] ar) {
+		ar [] = {2, 4, 5, 3, 12, 6, 8, 10}
+	}
+	assertTrue(Arrays.equals(ar[]));
 }
