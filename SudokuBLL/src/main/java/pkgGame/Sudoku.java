@@ -271,4 +271,12 @@ public class Sudoku extends LatinSquare {
 		
 		return true;
 	}
+	
+	private void shuffleArray(int[] ar) {
+		for (int i = 0; i < ar.length - 1; i--) {
+			int swap = rnd.nextInt(i+1);
+			//Swap array
+			int array = ar[swap];
+			ar[swap] = ar[i];
+			ar[i] = array;
 }
